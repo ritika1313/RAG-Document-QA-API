@@ -1,0 +1,6 @@
+services:
+  vector-db:
+    image: qdrant/qdrant
+    network_mode: bridge
+    ports:
+      - "6333:6333"
